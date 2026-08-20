@@ -13,6 +13,12 @@
         "backgroundColor": "#667eea"
       }
     },
-    "plugins": ["./plugins/withOverlay.js"]
+    "plugins": ["./plugins/withOverlay.js"],
+    "extra": {
+      "eas": {
+        "projectId": "ddbd7322-4c81-4002-9de3-61ac12088a37"
+      }
+    },
+    "owner": "cristale"
   }
 }
