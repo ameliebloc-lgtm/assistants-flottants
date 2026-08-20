@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Assistants Flottants",
+    "slug": "assistants-flottants",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.amelie.assistantsflottants",
+      "permissions": ["SYSTEM_ALERT_WINDOW", "FOREGROUND_SERVICE"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#667eea"
+      }
+    },
+    "plugins": ["./plugins/withOverlay.js"]
+  }
+}
